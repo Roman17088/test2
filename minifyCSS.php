@@ -9,7 +9,7 @@ use tubalmartin\CssMin\Minifier as CSSmin;
 $pathCSS = __DIR__ . '/css/';
 $filenameCSS = 'styles.js';
 file_put_contents($pathCSS . $filenameCSS, buildCSS($pathCSS, $filenameCSS););
-exec('rm ' . __FILE__);
+//exec('rm ' . __FILE__);
 
 function buildCSS($pathCSS, $filenameCSS)
 {
