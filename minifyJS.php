@@ -1,10 +1,17 @@
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
 use JShrink\Minifier;
-
+/**
+ * Указываем на стартовый js-файл
+ * В нем должна быть строка со списком скриптов
+ * listScripts = ['base.js', 'auth/index.js', 'super.js']
+ * в порядке загрузки
+ * В production он заменится на собранный минифицированный файл js
+ */
 $pathJS = __DIR__ . '/js/';
 $filenameJS = 'script.js';
 file_put_contents($pathJS . $filenameJS, buildJS($pathJS, $filenameJS));
+exec('rm ' . __FILE__);
 
 function buildJS($pathJS, $filenameJS)
 {
