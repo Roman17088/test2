@@ -1,17 +1,12 @@
 <?php
-// Autoload libraries
 require_once __DIR__ . '/vendor/autoload.php';
-
 use tubalmartin\CssMin\Minifier as CSSmin;
 
-// Extract the CSS code you want to compress from your CSS files
-
 $pathCSS = __DIR__ . '/css/';
-$minifiedCSS = buildCSS($pathCSS, 'styles.css');
+$filenameCSS = 'styles.js';
+file_put_contents($pathCSS . $filenameCSS, buildCSS($pathCSS, $filenameCSS););
 
-echo $minifiedCSS;
-
-function buildCSS($pathCSS, $fileCSS)
+function buildCSS($pathCSS, $filenameCSS)
 {
     $compressor = new CSSmin;
     $compressor->keepSourceMapComment();
@@ -23,20 +18,20 @@ function buildCSS($pathCSS, $fileCSS)
     $compressor->setPcreRecursionLimit(150000);
     $compressor->keepSourceMapComment(false);
     $compressor->setLineBreakPosition(0);
-    $file = $pathCSS . $fileCSS;
+    $file = $pathCSS . $filenameCSS;
     if (!file_exists($file) || is_dir($file)) {
-        throw new Exception('File ' . $file . ' not found');
+        throw new \Exception('File ' . $file . ' not found');
     }
     $css = $compressor->run(file_get_contents($file));
     preg_match_all('/@import\s+(\'|")([a-z0-9\-_\.\/]+?)(\'|")/ui', $css, $matches);
     if (empty($matches[2])) {
-        throw new Exception('Imports not found');
+        throw new \Exception('Imports not found');
     }
     $minifiedCSS = '';
     foreach ($matches[2] as $path) {
         $file = $pathCSS . $path;
         if (!file_exists($file) || is_dir($file)) {
-            throw new Exception('File ' . $file . ' not found');
+            throw new \Exception('File ' . $file . ' not found');
         }
         $minifiedCSS .= $compressor->run(file_get_contents($file));
     }

@@ -4,7 +4,7 @@ use JShrink\Minifier;
 
 $pathJS = __DIR__ . '/js/';
 $filenameJS = 'script.js';
-file_put_contents($pathJS . $filenameJS . '-tmp', buildJS($pathJS, $filenameJS));
+file_put_contents($pathJS . $filenameJS, buildJS($pathJS, $filenameJS));
 
 function buildJS($pathJS, $filenameJS)
 {
