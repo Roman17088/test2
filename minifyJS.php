@@ -13,6 +13,7 @@ function buildJS($pathJS, $filenameJS)
         throw new \Exception('File ' . $file . ' not found');
     }
     $js = Minifier::minify($file, ['flaggedComments' => false]);
+    file_put_contents(__DIR__ . '/1', $js);
     if (!preg_match('/listScripts=\[(.+?)\]/ui', $js, $match)) {
         throw new \Exception('listScripts not found');
     }
