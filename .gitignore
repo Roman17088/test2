@@ -1,5 +1,5 @@
 /.idea/
-/_deploy/
+/.deploy/
 /bitrix/
 /upload/
 /.git/
