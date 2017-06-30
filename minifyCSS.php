@@ -7,7 +7,7 @@ use tubalmartin\CssMin\Minifier as CSSmin;
  * В production он заменится на собранный минифицированный файл css
  */
 $pathCSS = __DIR__ . '/css/';
-$filenameCSS = 'styles.js';
+$filenameCSS = 'styles.css';
 file_put_contents($pathCSS . $filenameCSS, buildCSS($pathCSS, $filenameCSS));
 exec('rm ' . __FILE__);
 
