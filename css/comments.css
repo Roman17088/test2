@@ -1,0 +1,68 @@
+.comments .title {
+    font-size: 25px;
+    font-weight: 500;
+    color: #222626;
+    padding-top: 14px;
+    margin-bottom: 35px;
+}
+
+.comment {
+    min-height: 70px;
+    margin-bottom: 50px;
+}
+
+.comment .sign {
+    position: relative;
+    padding: 0 120px 17px 0;
+}
+
+.comment button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.comment .photo {
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+
+.comment .desc {
+    line-height: 1;
+    margin-left: 100px;
+    padding-left: 30px;
+    border-left: 1px solid #e9e9e9;
+}
+
+.comment .date {
+    color: #a4abab;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.comment .name {
+    color: #222626;
+    font-size: 19px;
+}
+
+.comment .message {
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+.comment-depth1 {
+    margin-left: 100px;
+}
+
+.comment-depth2 {
+    margin-left: 200px;
+}
+
+.comment-depth2 button {
+    display: none;
+}
+
+.comment-depth2 .sign {
+    padding-right: 0;
+}

@@ -1,0 +1,66 @@
+.topPanel {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    line-height: 1;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(34, 38, 38, 0.1);
+}
+
+.topPanel_about {
+    align-self: center;
+}
+
+.topPanel-block {
+    padding: 3px 0 3px 20px;
+    border-left: 1px solid rgba(55, 65, 67, 0.1);
+}
+
+.topPanel_lang {
+    display: inline-block;
+    padding: 0 32px 0 46px;
+    position: relative;
+    cursor: pointer;
+}
+
+.topPanel_lang::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    right: 17px;
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-top-color: #000;
+}
+
+.topPanel_lang-en {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAJFBMVEUGCP0GCfwGCf0HCv38/vz8/v39/v39//3/JgD/UAD/UQD///9/PRSZAAAAT0lEQVQI113KQRKCUBDE0AChh9/e/74u0LLwbRM4gIOutl0tSDY5dTQjEALXx4JBgqeTzAQQ2b5HOdwlZIxJ5Lb/DpPcWWOGXg/l9ST98wZJMAQ7bpveNwAAAABJRU5ErkJggg==) 20px 50% no-repeat;
+}
+
+.topPanel_auth {
+    display: inline-block;
+    color: #5f6565;
+}
+
+.topPanel_auth a:first-child {
+    margin-right: 8px;
+}
+
+.topPanel_auth a:last-child {
+    margin-left: 8px;
+}
+
+.topPanel_auth a {
+    display: inline-block;
+    text-decoration: none;
+    color: #5f6565;
+}
+
+.topPanel_auth a:hover {
+    text-decoration: underline;
+}

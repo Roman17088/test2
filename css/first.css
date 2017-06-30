@@ -1,0 +1,158 @@
+html {
+    font-size: 15px;
+    min-width: 36rem;
+}
+
+body {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 36rem;
+    min-height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 17px;
+    color: #5f6565;
+    line-height: 2rem;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+#page {
+    flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    z-index: 1;
+}
+
+header.site {
+    height: 120px;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+}
+
+.widgetBitcoin {
+    display: block;
+}
+
+.ccc-widget .ccc-coin-container:last-child {
+    margin-right: 0;
+}
+
+#logo {
+    display: block;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAAAZCAMAAABgv8DzAAAAXVBMVEUAAAAeLS3wtDwmJib4vDUjKCj1uTciJib0uDghJyfztzkjJib1uTciJyf0uDgiJib0uDghJibztzkjJib1uTgiJib0uDgiJib0uDghJibztzkiJib0uDgiJib0uDgFeaKcAAAAHXRSTlMAEREiIjMzRERVVWZmd3eIiJmZqqq7u8zM3d3u7lD7mhcAAANPSURBVHgBtZjvlrIgEIcH/yyZomtmZSj3f5nve5wxf4axWqfnQ0cW6PDszABJQlKeb871l1MRkUdUnC7OOb/TMeWidV92kjAw3bKJLUS6YnnWMKodn838dUxWtcN/ro2JCfi5uAd9SUuSk5s5JQE1oQipDfkeNepgkuZnO3Y03KiIyTuYWc9ypVtwSwgoeof0xZ9qfRRSs2qPWgUGRjpicM5opF5OtSkxEhVwi2hdW0QCatIOqA1mj1oGSVhBdip5VgQ94Bbj4pHTHDPnU/yl1ichNRvvUFPQaOF/o0GZUn9yPdaZW+GHmASzEVceVHOnkNpQ71CjqyQhDGrm5DSYjp3ReTNAOC9TFhZEhwuuDXK1LxNKyh57Q2ouCanhOpedtQYId8IMYnOdd5GU9SE5tX1MSJb1dRMVCdpkxlH86WHlQbVLUK19pWbIQz96Moin2FiZjZ6tTJgr7UAjR1i8dEJ1FeASVHOHkNqgN6vBYWb86c3yq6uUkPPynKWSSbCzpwkJ2/lPtVtQ7bpdTaLQ8QOTk5aHuR4Z2xhNEzdcLOB3gustoCYUIbUhD28j0oPFpvgkG1vV9Md4HgK0ufJXh/idkKHBixZ/vlDr+HO7WipJqMZ5OWdnPYUSwgZY8x21g/xxXW3aFjarkeUJepQaP624VCSoxj/XvqEmx0m/riYlY7er8bJrw8XIiQi3LEY/y1XfqDVKHOCpybK2q3GArzXXaAcxVwSovLY4Xz3vkBFu9+/tkES/ITWqXqt17QxNxLKr8rbfzgUrQ4DUzMHLn8+1AppvnmtEUR9SU/almqE1OhwuAcPRhtEcvPrRu7yNRHdpRu/fRoioDKmR2alWzzsfUT7PTZf7Y+V91xnukMebNM7v3iHF5R5SwzAE7pAxCTne0DR4Cg38opgH6Bc3/8MHN3+5rwXUsnU1BEOoYNuDoc2zuq1yndd49S+dx+/7v9fE5RJSo3aHGp7IBhu5X4xA9Y1f2VyWQbV0n1oF92Jq4KeRkFpv8lWtLv8cffRuRKo0pEb1LrUMk8zAq7GXbq1ae6N1P374RosbUR9SU3arGhabRc+KAGUsiuUk4HvI3yN9+h6SmDKkRmarGtZmi8mc0ZKsaq//h7S1kUz9B9trZqFIRn6qAAAAAElFTkSuQmCC) 0 0 no-repeat;
+    height: 25px;
+    width: 218px;
+}
+
+.titleSite {
+    line-height: 1;
+    padding: 47px 0 28px 0;
+    background: #f9f9f9;
+    margin-bottom: 60px;
+    z-index: 1;
+}
+
+.breadcrumbs {
+    margin-bottom: 22px;
+}
+
+.breadcrumbs li {
+    display: inline-flex;
+    display: -ms-inline-flexbox;
+}
+
+.breadcrumbs a, .breadcrumbs span {
+    color: #5f6565;
+    text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    color: #222626;
+    padding: 0;
+    margin: 0 0 1.8rem 0;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 41px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 37px;
+    margin: 0 0 2.8rem 0;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+::-webkit-input-placeholder {
+    color: #a4abab;
+}
+
+::-moz-placeholder {
+    color: #a4abab;
+}
+
+/* Firefox 19+ */
+:-moz-placeholder {
+    color: #a4abab;
+}
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+    color: #a4abab;
+}
+
+input[placeholder] {
+    text-overflow: ellipsis;
+}
+
+input::-moz-placeholder {
+    text-overflow: ellipsis;
+}
+
+input:-moz-placeholder {
+    text-overflow: ellipsis;
+}
+
+input:-ms-input-placeholder {
+    text-overflow: ellipsis;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    border: 0;
+    -webkit-text-fill-color: #a4abab;
+    transition: background-color 5000s ease-in-out 0s;
+    /*-webkit-box-shadow: 0 0 0 1000px transparent inset;*/
+    /*background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 174, 255, 0.04) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 174, 255, 0.03) 100%);*/
+}
+
+.sidebarBlock {
+    margin-bottom: 40px;
+}
+

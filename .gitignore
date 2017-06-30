@@ -1,0 +1,8 @@
+/.idea/
+/_deploy/
+/bitrix/
+/upload/
+/.git/
+composer.lock
+vendor/
+tmp/

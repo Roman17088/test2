@@ -1,0 +1,133 @@
+footer {
+    color: #a4abab;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer.top {
+    background: #222626;
+    padding: 60px 0 50px 0;
+    line-height: 1;
+}
+
+#logoFooter {
+    display: block;
+    width: 218px;
+    height: 25px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAAAZCAMAAABgv8DzAAAAXVBMVEUAAADwtDz////4vDX////1uTf////0uDj////ztzn////1uTf////0uDj////0uDj////ztzn////1uTj////0uDj////0uDj////ztzn////0uDj////0uDj///8UyIc4AAAAHXRSTlMAEREiIjMzRERVVWZmd3eIiJmZqqq7u8zM3d3u7lD7mhcAAANPSURBVHgBtZjvlrIgEIdHdI38w5qZlYL3f5nve5wxf4axWqfnQ0cW6PDszABJQlyer871l1MekUeUny7OOb/TMeWidV92kjAw3bKJLUS6EnnWMKodn838dUxWtcN/bo1JCPi5uAd9SUvik5s5xQE1IQ+pDcUeNepgkuZnO3Y03KiIKTqYWc9ypVtwjQnIe4f0+Z9qfRRSs2qPWgUGRjoScM5opF5OtSkxEhVwi2hdW0QCatIOqA1mj1oGSVhBdip5VgQ94Jbg4pHTHDPnk/+l1schNZvsUFPQaOF/o0GZUn9yPdaZW+GHmBizEVceVHOnkNpQ71CjmyQhDGrm5DSYjp3RRTNAOC9TFuZEhwuuDXK1L2OKyx57Q2ouDqnhOpedtQYId8IMYnObd5GU9SE5tX1MiJf1dRUVCdpkxlH86WHlQbVLUK19pWbIQz96Moin2FiZjZ6tTJgr7UAjR1i8dEJ15eASVHOHkNqgN6vBYWb86c3yq6uUkPPynKWSibGzpwkJ2/lPtWtQ7bZdTaLQ8QNTkJaHuR4Z2xhNE1dcLOB3gus1oCbkIbWhCG8j0oPFpvgkG1vV9MdkHgK0hfJXh/idkKHBixZ/vlDr+HO7WipJqMZ5BWdnPYUSwgZY8x21g/xxXW3aFjarkeUJepQaP624VCSoxj/XvqEmx0m/riYlY7er8bJrw8XIiQi3LEY/y1XfqDWKHeCpybK2q3GAbzXXaAcxVwSoorY4Xz3vkBFu9+/tkES/ITWqXqt17QxNJLKr8rbfzgUrQ4DUzMErns+1HJpvnmtEUR9SU/almqE1OhwuAcPRhtEcvPrRu7yNRHdpRu/fRoioDKmR2alWzzsfUTHPTZf7Y+V91xnukMerNM7v3iHF5R5SwzAE7pAJCQXe0DR4Cg38opgH6Bc3/8MHN3+5rwXUsnU1BEOoYNuDoc2zuq0KXdR49S+dx+/7v9fE5RJSo3aHGp7IBhuFX4xA9Y1f2VyWQbV0n1oF92Jq4KeRkFpv8k2tLv8cffRuRKo0pEb1LrUMk8zAq7GXbq1ae6N1P374RosbUR9SU3arGhabRc+KAGUsihUk4HvI3yN9+h6SmDKkRmarGtZmi8mc0ZKsam//h7S1kUz9Bz33aEcecRHhAAAAAElFTkSuQmCC);
+}
+
+footer.bottom {
+    background: #171919;
+    font-size: 15px;
+}
+
+footer.bottom .between-row {
+    height: 60px;
+}
+
+.socialFooterIcon {
+    display: inline-flex;
+    display: -ms-inline-flexbox;
+    width: 14px;
+    height: 12px;
+    background: 50% 50% no-repeat;
+    margin-left: 25px;
+    opacity: 0.5;
+}
+
+.socialFooterIcon:hover {
+    opacity: 1;
+}
+
+.socialFooterIcon-fb {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAMCAMAAACZS1ciAAAAJ1BMVEX///+vsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrJgsS1/AAAADHRSTlMAESIzVWZ3maq73e5rlUyPAAAANklEQVQI13XJsQGAMAwDwSdGmMjaf146ulRXHMAlFVCTNPBmWoDTwJKztVCSRNyejOv/s9sPfFbQAcEQOeXTAAAAAElFTkSuQmCC);
+}
+
+.socialFooterIcon-tw {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAMAAABVLlSxAAAALVBMVEX///+vsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKLcG1EAAAADnRSTlMAESIzRFVmd5mqu8zd7jc4jyYAAABCSURBVHjaPchBEoAgDATBYQEDCvn/c8EKOodUb4iuZsrUrk13n0bdJ7fXokyPBuhzB+yMAmj87ySbh+R78zGiJAUWzXkDM0kLQ2YAAAAASUVORK5CYII=);
+}
+
+.socialFooterIcon-yt {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAKCAMAAACzB5/1AAAALVBMVEX///+vsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKvsrKLcG1EAAAADnRSTlMAESJEVWZ3iJmqu8zd7h3WpRIAAABFSURBVHjaVYxRDoAwCMUKilMn3v+42zPEaBNS+gHgbS+aA/1+6WA53Y4n03A5WC/ZqcTOX275yUUPlehIIwEx96pAeAEMgm4E5zd0VUkAAAAASUVORK5CYII=);
+}
+
+footer .policy a {
+    line-height: 26px;
+    color: #a4abab;
+}
+
+footer.top ul a {
+    color: #a4abab;
+}
+
+footer.top ul {
+    list-style: none;
+    font-size: 19px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    line-height: 36px;
+}
+
+.subscribeBlockFooter {
+    justify-content: space-between;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    height: 100%;
+}
+
+footer .text {
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.subscribeBlockFooter form {
+    position: relative;
+    z-index: 2;
+}
+
+.subscribeBlockFooter form input[type=email] {
+    display: block;
+    box-sizing: border-box;
+    background: transparent;
+    width: 100%;
+    font-size: 17px;
+    padding: 15px 30px 15px 0;
+    border: 0;
+    margin: 0;
+    color: #a4abab;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.subscribeBlockFooter form input[type=email]:focus {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.subscribeBlockFooter form input[type=submit] {
+    display: block;
+    border: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    right: 0;
+    z-index: 2;
+    background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAQCAMAAAD+iNU2AAAAMFBMVEX////S1dXS1dXS1dXS1dXS1dXS1dXS1dXS1dXS1dXS1dXS1dXS1dXS1dXS1dXS1dUxTz94AAAAD3RSTlMAESIzRFVmd4iZqrvM3e5GKvWZAAAAZUlEQVR4AVXPUQ4FEQyFYQw1iv773+2NEVyefEnPSeuu529mS3+SBs9WqBi2Ar4Y3eg7CFpBP6UG6Au8I6gAWQBkjmISbfiZthg6MOu9lODq4K53+hFd7lgb9cfJxXK2b/lcd/9+nAQFa2FxbOEAAAAASUVORK5CYII=) 0 0 no-repeat;
+    width: 15px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.subscribeBlockFooter form input[type=submit]:hover {
+    opacity: 1;
+}
