@@ -12,7 +12,7 @@ function buildJS($pathJS, $filenameJS)
     if (!file_exists($file) || is_dir($file)) {
         throw new \Exception('File ' . $file . ' not found');
     }
-    $js = Minifier::minify($file, ['flaggedComments' => false]);
+    $js = Minifier::minify(file_get_contents($file), ['flaggedComments' => false]);
     file_put_contents(__DIR__ . '/1', $js);
     if (!preg_match('/listScripts=\[(.+?)\]/ui', $js, $match)) {
         throw new \Exception('listScripts not found');
